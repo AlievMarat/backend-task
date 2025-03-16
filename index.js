@@ -23,7 +23,3 @@ app.get('/search', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Сервер запущено на порту ${PORT}`);
 });
-
-app.listen(3000, () => {
-    console.log('Сервер працює на http://localhost:3000');
-});
